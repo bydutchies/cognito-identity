@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Amazon", "Amazon", "{3641C2D9-0722-476C-99C3-A756F4677702}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.AspNetCore.Identity.Cognito", "Amazon.AspNetCore.Identity.Cognito\Amazon.AspNetCore.Identity.Cognito.csproj", "{67BAE240-DFBA-4C4D-89E8-38D9F4172433}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Amazon.Extensions.CognitoAuthentication", "Amazon.Extensions.CognitoAuthentication\Amazon.Extensions.CognitoAuthentication.csproj", "{F99A53B8-6437-40FF-B373-181879DD60B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{1E14C1EF-BE46-4527-B275-3866021D2201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebExample", "WebExample\WebExample.csproj", "{2C14A936-3D16-4D26-B8A1-4F56310D4AC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67BAE240-DFBA-4C4D-89E8-38D9F4172433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67BAE240-DFBA-4C4D-89E8-38D9F4172433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67BAE240-DFBA-4C4D-89E8-38D9F4172433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67BAE240-DFBA-4C4D-89E8-38D9F4172433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F99A53B8-6437-40FF-B373-181879DD60B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F99A53B8-6437-40FF-B373-181879DD60B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F99A53B8-6437-40FF-B373-181879DD60B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F99A53B8-6437-40FF-B373-181879DD60B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C14A936-3D16-4D26-B8A1-4F56310D4AC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C14A936-3D16-4D26-B8A1-4F56310D4AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C14A936-3D16-4D26-B8A1-4F56310D4AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C14A936-3D16-4D26-B8A1-4F56310D4AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{67BAE240-DFBA-4C4D-89E8-38D9F4172433} = {3641C2D9-0722-476C-99C3-A756F4677702}
+		{F99A53B8-6437-40FF-B373-181879DD60B7} = {3641C2D9-0722-476C-99C3-A756F4677702}
+		{2C14A936-3D16-4D26-B8A1-4F56310D4AC9} = {1E14C1EF-BE46-4527-B275-3866021D2201}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {304EDC74-189C-440A-9175-BCB7CB112162}
+	EndGlobalSection
+EndGlobal
