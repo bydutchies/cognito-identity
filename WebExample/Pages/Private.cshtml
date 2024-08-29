@@ -1,0 +1,53 @@
+﻿@page
+@using System.Security.Claims
+@model PrivateModel
+@{
+    ViewData["Title"] = "User claims";
+}
+<h2>@ViewData["Title"]</h2>
+
+<table>
+    @foreach (var claim in ((ClaimsIdentity)User.Identity).Claims)
+    {
+        <tr>
+            <td>@claim.Type</td>
+            <td>@claim.Value</td>
+        </tr>
+    }
+</table>
+
+<h2>Tokens</h2>
+
+<table>
+    <tr>
+        <td>ID Token</td>
+        <td>@Model.IdToken</td>
+    </tr>
+    <tr>
+        <td>Access Token</td>
+        <td>@Model.AccessToken</td>
+    </tr>
+    <tr>
+        <td>Refresh Token</td>
+        <td>@Model.RefreshToken</td>
+    </tr>
+</table>
+
+<h2>Actions</h2>
+
+<form asp-page-handler="resetmfa" method="post">
+    <button class="btn btn-default">Reset mfa</button>
+</form>
+<form asp-page-handler="refreshtokens" method="post">
+    <button class="btn btn-default">Refresh tokens</button>
+</form>
+
+<style>
+    table, tr, th, td {
+        border: 1px solid black;
+    }
+
+    table {
+        width: 1000px
+    }
+</style>
