@@ -44,7 +44,7 @@ namespace Amazon.AspNetCore.Identity.Cognito
         private const string CognitoMFASetupRefreshToken = "CognitoMFASetupRefreshToken";
         private const string CognitoMFASetupExpiresIn = "CognitoMFASetupExpiresIn";
         private const string CognitoMFASetupSecret = "CognitoMFASetupSecret";
-        private const string CognitoPasswordChangeWorkflowKey = "CognitoMFASetupWorkflowId";
+        private const string CognitoPasswordChangeWorkflowKey = "CognitoPasswordChangeWorkflowId";
 // ********** EINDE MAATWERK **********
 
 #if NET8_0
